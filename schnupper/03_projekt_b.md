@@ -1,6 +1,6 @@
 # Projekt B - Ein- und Ausgaben
 
-Es soll ein Programm "InputOutput" entstehen, welches den Benutzer nach seinem Namen fragt, und anschliessend die Ausgabe "Guten Tag XYZ" ausgibt.
+Es soll ein Programm `InputOutput` entstehen, welches den Benutzer nach seinem Namen fragt, und anschliessend die Ausgabe "Guten Tag XYZ" ausgibt.
 
 Nützliche Befehle:
 

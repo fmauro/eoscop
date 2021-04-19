@@ -1,6 +1,6 @@
 # Projekt C - Variablen und Datentypen
 
-Es soll ein Programm entstehen, welches eine Zahl in einer Variable speichert und den Benutzer nach einer Zahl fragt. Ist die eingegebene Zahl des Benutzers gleich wie die im Code definierte Zahl, wird dies dem Benutzer mitgeteilt. Ansonsten wird dem Benutzer gesagt, ob die gesuchte Zahl grösser oder kleiner ist.
+Es soll ein Programm `ZahlErraten` entstehen, welches eine Zahl in einer Variable speichert und den Benutzer nach einer Zahl fragt. Ist die eingegebene Zahl des Benutzers gleich wie die im Code definierte Zahl, wird dies dem Benutzer mitgeteilt. Ansonsten wird dem Benutzer gesagt, ob die gesuchte Zahl grösser oder kleiner ist.
 
 Beispielablauf:
 ```
