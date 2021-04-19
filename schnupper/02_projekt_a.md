@@ -43,9 +43,9 @@ dotnet run
 ```
 Dies sollte folgenden Output generieren:
 ```
-PS C:\Users\mauro.frischherz\source\repos\schnupper\hallowelt> dotnet run
+PS C:\Users\mauro.frischherz\source\repos\schnupper\HalloWelt> dotnet run
 Hello World!
-PS C:\Users\mauro.frischherz\source\repos\schnupper\hallowelt> 
+PS C:\Users\mauro.frischherz\source\repos\schnupper\HalloWelt> 
 ```
 
 ## Programmcode
