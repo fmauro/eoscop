@@ -79,6 +79,13 @@ static void Main(string[] args)
 
 Hier ist der komplette Ablauf des Programms ersichtlich. Das Programm führt einzig die **Methode** `WriteLine` der **Klasse** `Console` mit dem **Parameter** `"Hello World!"` aus.
 
+Ab .Net Core 5 ist es möglich das Programm mit [Top Level Statements](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/top-level-statements) zu schreiben. Somit fällt die Klassendefinition komplett weg und der Code kann folgendermassen geschrieben werden:
+```csharp
+using System;
+
+Console.WriteLine("Hello World!");
+```
+
 ## Aufgabe
 
 Das Programm soll anstatt 
