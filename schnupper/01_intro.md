@@ -4,7 +4,7 @@
 Als strategischer Partner der PostLogistics AG entwickelt die eoscop AG eine abdeckende Suite von kundenseitigen, sowie betriebsinternen Logistikapplikationen.
 Die Applikationen sowie Dienstleistungen decken die Bereiche Entwicklung (Projektleitung und Programmierung für Web und Desktop), System- und Netzwerkadministration sowie technischer Support ab.
 
-## Personen
+## Schnuppertage
 
 Leitung:
 - Mauro Frischherz
