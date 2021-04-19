@@ -56,3 +56,9 @@ Lerninhalte:
 - Operationen
 - Datentypen
 - Bedingungen
+
+Fragen:
+- Was ist ein `string`?
+- Was ist ein `int`?
+- Welche Datentypen gibt es sonst noch?
+- Was ist ein `if` statement und was bewirkt es?

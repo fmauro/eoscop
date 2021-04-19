@@ -19,3 +19,7 @@ string input = Console.ReadLine();
 Lerninhalte:
 - Variablen
 - Operationen
+
+Fragen:
+- Was ist eine Variable?
+- Was ist der Unterschied zwischen `Console.Write()` und `Console.WriteLine()`
