@@ -6,7 +6,7 @@ Dazu verwenden wir eine IDE ([Integrated Development Environment](https://de.wik
 Als Programmiersprache für unsere Projekte werden wir C# verwenden.
 >[C# in Visual Studio Code](https://code.visualstudio.com/docs/languages/csharp)
 
-## Visual Studio Code und dotnet installieren
+## Visual Studio Code und dotnet SDK installieren
 
 1. Lade den Installer für Visual Studio Code herunter: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 2. Starte den Installer aus dem Download-Verzeichnis und installiere Visual Studio Code
