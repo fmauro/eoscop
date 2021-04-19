@@ -26,14 +26,63 @@ Dazu sind folgende Schritte notwendig:
 2. In Visual Studio Code auf "File" -> "Open Folder" und anschliessend zum neu erstellten Ordner navigieren. ![proj-root](img/vscode_project_root.png)
 3. Nun öffnen wir ein neues "Terminal" über den Menüpunkt: "Terminal" -> "New Terminal". Dies zeigt uns nun eine Kommandozeile am unteren Rand der Applikation an. Diese Kommandozeile ist bereits im richtigen Ordner "schnupper": ![terminal](img/vscode_terminal.png)
 4. In diesem Terminal geben wir einen Befehl ein, welcher ein neues C# dotnet Projekt erzeugt, inkl. aller nötigen Grunddaten: 
-
-```dotnet new console -o HalloWelt```
-
+```
+dotnet new console -o HalloWelt
+```
 5. Wenn wir im Explorer nachschauen, wurde ein neuer Ordner "HalloWelt" erstellt.
 6. Im Terminal wechseln wir nun vom Ordner "schnupper" in den Ordner "HalloWelt" mit dem Befehl:
-
-```cd HalloWelt```
-
+```
+cd HalloWelt
+```
 7. In diesem Ordner können wir nun die erstellte Applikation ausführen mit:
+```
+dotnet run
+```
+Dies sollte folgenden Output generieren:
+```
+PS C:\Users\mauro.frischherz\source\repos\schnupper\hallowelt> dotnet run
+Hello World!
+PS C:\Users\mauro.frischherz\source\repos\schnupper\hallowelt> 
+```
 
-```dotnet run```
+## Programmcode
+
+```csharp
+using System;
+
+namespace HalloWelt
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
+```
+
+Unser Programm ist komplett in der Datei `Program.cs` enthalten. Für grössere Projekte werden einzelne Programmteile in mehrere Dateien aufgeteilt, um Übersichtlichkeit zu gewährleisten. Für unsere kleinen Applikationen genügt jedoch eine Datei.
+
+Interessant für uns ist der Abschnitt innerhalb der innersten, geschweiften Klammern.
+
+```csharp
+static void Main(string[] args) 
+{
+    Console.WriteLine("Hello World!");
+}
+```
+
+Hier ist der komplette Ablauf des Programms ersichtlich. Das Programm führt einzig die **Methode** `WriteLine` der **Klasse** `Console` mit dem **Parameter** `"Hello World!"` aus.
+
+## Aufgabe
+
+Das Programm soll anstatt 
+
+`Hello World!`
+
+die Zeichenfolge
+ 
+`Hallo Welt!`
+ 
+ausgeben.
