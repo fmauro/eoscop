@@ -22,7 +22,10 @@ Ist die Umgebung korrekt installiert, können wir nun unser erstes Programm erst
 
 Dazu sind folgende Schritte notwendig:
 
-1. Im Explorer ein Verzeichnis erstellen, in welches das Projekt gespeichert werden soll. Ein Beispiel auf Windows wäre: `C:\Users\mauro.frischherz\source\repos\schnupper`
+1. Im Explorer ein Verzeichnis erstellen, in welches das Projekt gespeichert werden soll. Ein Beispiel auf Windows wäre: 
+
+`C:\Users\mauro.frischherz\source\repos\schnupper`
+
 2. In Visual Studio Code auf "File" -> "Open Folder" und anschliessend zum neu erstellten Ordner navigieren. ![proj-root](img/vscode_project_root.png)
 3. Nun öffnen wir ein neues "Terminal" über den Menüpunkt: "Terminal" -> "New Terminal". Dies zeigt uns nun eine Kommandozeile am unteren Rand der Applikation an. Diese Kommandozeile ist bereits im richtigen Ordner "schnupper": ![terminal](img/vscode_terminal.png)
 4. In diesem Terminal geben wir einen Befehl ein, welcher ein neues C# dotnet Projekt erzeugt, inkl. aller nötigen Grunddaten: 

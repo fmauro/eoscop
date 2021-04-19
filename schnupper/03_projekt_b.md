@@ -16,6 +16,14 @@ Zeichenfolge einlesen:
 string input = Console.ReadLine();
 ```
 
+Zeichenfolgen zusammenfügen:
+```
+string input = "test";
+string a = "Blablabla " + "test";
+string b = "Blabla " + input;
+string c = $"Blabla {input}";
+```
+
 Lerninhalte:
 - Variablen
 - Operationen
