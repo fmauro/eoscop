@@ -27,12 +27,12 @@ Dazu sind folgende Schritte notwendig:
 3. Nun öffnen wir ein neues "Terminal" über den Menüpunkt: "Terminal" -> "New Terminal". Dies zeigt uns nun eine Kommandozeile am unteren Rand der Applikation an. Diese Kommandozeile ist bereits im richtigen Ordner "schnupper": ![terminal](img/vscode_terminal.png)
 4. In diesem Terminal geben wir einen Befehl ein, welcher ein neues C# dotnet Projekt erzeugt, inkl. aller nötigen Grunddaten: 
 
-```dotnet new console -o hallowelt```
+```dotnet new console -o HalloWelt```
 
-5. Wenn wir im Explorer nachschauen, wurde ein neuer Ordner "hallowelt" erstellt.
-6. Im Terminal wechseln wir nun vom Ordner "schnupper" in den Ordner "hallowelt" mit dem Befehl:
+5. Wenn wir im Explorer nachschauen, wurde ein neuer Ordner "HalloWelt" erstellt.
+6. Im Terminal wechseln wir nun vom Ordner "schnupper" in den Ordner "HalloWelt" mit dem Befehl:
 
-```cd hallowelt```
+```cd HalloWelt```
 
 7. In diesem Ordner können wir nun die erstellte Applikation ausführen mit:
 
