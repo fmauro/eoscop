@@ -45,7 +45,6 @@ Dies sollte folgenden Output generieren:
 ```
 PS C:\Users\mauro.frischherz\source\repos\schnupper\HalloWelt> dotnet run
 Hello World!
-PS C:\Users\mauro.frischherz\source\repos\schnupper\HalloWelt> 
 ```
 
 Die Schritte 4 - 7 sollten für alle neuen Projekte durchgeführt werden.
