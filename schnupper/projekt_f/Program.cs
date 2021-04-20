@@ -26,6 +26,38 @@ void PrintGame(char[,] game)
     }
 }
 
+char GetChain(char[,] g)
+{
+    // Zeilen
+    if (g[0, 0] == g[0, 1] && g[0, 1] == g[0, 2]) if (g[0, 0] != ' ') return g[0, 0];
+    if (g[1, 0] == g[1, 1] && g[1, 1] == g[1, 2]) if (g[1, 0] != ' ') return g[1, 0];
+    if (g[2, 0] == g[2, 1] && g[2, 1] == g[2, 2]) if (g[2, 0] != ' ') return g[2, 0];
+
+    // Spalten
+    if (g[0, 0] == g[1, 0] && g[1, 0] == g[2, 0]) if (g[0, 0] != ' ') return g[0, 0];
+    if (g[0, 1] == g[1, 1] && g[1, 1] == g[2, 1]) if (g[0, 1] != ' ') return g[0, 1];
+    if (g[0, 2] == g[1, 2] && g[1, 2] == g[2, 2]) if (g[0, 2] != ' ') return g[0, 2];
+
+    // Diagonalen
+    if (g[0, 0] == g[1, 1] && g[1, 1] == g[2, 2]) if (g[0, 0] != ' ') return g[0, 0];
+    if (g[0, 2] == g[1, 1] && g[1, 1] == g[2, 0]) if (g[0, 2] != ' ') return g[0, 2];
+
+    return ' ';
+}
+
+bool IsGameFull(char[,] g)
+{
+    for (int row = 0; row < 3; row++)
+    {
+        for (int col = 0; col < 3; col++)
+        {
+            if (g[row, col] == ' ') return false;
+        }
+    }
+
+    return true;
+}
+
 char[,] mainGame = NewGame();
 bool player = true;
 
@@ -50,6 +82,21 @@ while (targetRow == -1 && targetCol == -1)
         {
             mainGame[targetRow, targetCol] = player ? 'x' : 'o';
             player = !player;
+
+            // Prüfung
+            char chain = GetChain(mainGame);
+            if (chain != ' ')
+            {
+                PrintGame(mainGame);
+                Console.WriteLine($"{chain} gewinnt!");
+                break;
+            }
+            else if (IsGameFull(mainGame))
+            {
+                PrintGame(mainGame);
+                Console.WriteLine($"Spiel zuende, kein Gewinner");
+                break;
+            }
         }
 
         targetRow = targetCol = -1;
