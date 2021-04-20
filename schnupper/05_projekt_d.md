@@ -27,5 +27,5 @@ Lerninhalte:
 - Schleifen
 
 Fragen:
-- Wie funktioniert eine `while` Schleife
-- Welche anderen Arten von Schleifen gibt es
+- Wie funktioniert eine `while` Schleife?
+- Welche anderen Arten von Schleifen gibt es?
