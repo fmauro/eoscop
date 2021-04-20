@@ -97,3 +97,8 @@ die Zeichenfolge
 `Hallo Welt!`
  
 ausgeben.
+
+
+## Hilfreiche Links
+
+[Erste Schritte mit C#](https://docs.microsoft.com/de-ch/learn/paths/csharp-first-steps/)
