@@ -1,3 +1,10 @@
+# Projekt G - Billiardkugeln
+
+Es soll ein bestehendes Programm erweitert werden, sodass Kugelzusammenstösse korrekt
+dargestellt werden.
+
+Code-Vorgabe:
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -89,35 +96,6 @@ class GameWindow : Game
         {
             // Kreis je nach definierter Geschwindigkeit aktualisieren
             circle.Update();
-
-            // Kollisionen mit anderen Kreisen berechnen
-            foreach (var other in _circles)
-            {
-                if (other == circle) continue;
-
-                // Distanzvektor zum anderen Kreis
-                var dist = circle.Position - other.Position;
-                // Länge der Distanz zum anderen Kreis
-                float len = dist.Length();
-
-                // Wenn sich die beiden Kreise berühren
-                if (len <= circle.Radius + other.Radius)
-                {
-                    // Überschneidung berechnen
-                    float overshoot = circle.Radius + other.Radius - len;
-                    // Distanzvektor normalisieren (auf Länge 1 schrumpfen/wachsen)
-                    dist.Normalize();
-
-                    // Kreise trennen
-                    circle.Position += dist * overshoot / 2;
-                    other.Position -= dist * overshoot / 2;
-
-                    // Impulsübertragung nach Grösse
-                    float ratio = circle.Radius / other.Radius;
-                    circle.Velocity = dist * other.Velocity.Length() / ratio;
-                    other.Velocity = -dist * circle.Velocity.Length() * ratio;
-                }
-            }
 
             // Kreis nicht aus dem Fenster wandern lassen
             if (circle.X <= 0)
@@ -260,3 +238,7 @@ class Circle
         return output;
     }
 }
+```
+
+Lerninhalte:
+- Monogame Engine
