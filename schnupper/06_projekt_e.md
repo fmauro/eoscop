@@ -1,6 +1,6 @@
 # Projekt E - Zufallszahlen
 
-Es soll das Programm `ZahlErraten` erweitert werden, die zu erratende Zahl nicht mehr fix im Code definiert ist, sondern Zufällig gewählt wird.
+Es soll das Programm `ZahlErraten` erweitert werden, die zu erratende Zahl nicht mehr fix im Code definiert ist, sondern zufällig gewählt wird.
 
 Nützliche Befehle:
 

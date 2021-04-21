@@ -1,7 +1,6 @@
 # Projekt G - Billiardkugeln
 
-Es soll ein bestehendes Programm erweitert werden, sodass Kugelzusammenstösse korrekt
-dargestellt werden.
+Es soll ein bestehendes Programm erweitert werden, sodass Kugelzusammenstösse korrekt dargestellt werden.
 
 Code-Vorgabe:
 ```csharp
