@@ -2,6 +2,31 @@
 
 Es soll ein bestehendes Programm erweitert werden, sodass Kugelzusammenstösse korrekt dargestellt werden.
 
+Dieses Programm verwendet die [Monogame](https://www.monogame.net/) Engine (ehemals Microsoft XNA)
+
+Um diesen Code in einem neuen Projekt auszuführen, muss in der `.csproj` Datei folgender Abschnitt eingefügt werden:
+```xml
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
+  </ItemGroup>
+```
+
+Das Projekt-File sollte anschliessend folgendermassen aussehen:
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
+  </ItemGroup>
+</Project>
+```
+
 Code-Vorgabe:
 ```csharp
 using System;
