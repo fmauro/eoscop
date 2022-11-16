@@ -10,7 +10,7 @@ Als Programmiersprache für unsere Projekte werden wir C# verwenden.
 
 1. Lade den Installer für Visual Studio Code herunter: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 2. Starte den Installer aus dem Download-Verzeichnis und installiere Visual Studio Code
-3. Installiere die dotnet core SDK (Version 5): [https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/download)
+3. Installiere die dotnet core SDK (Version 7.0): [https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/download)
 3. Öffne Visual Studio Code
 4. Gehe zu Menü "View" -> "Extensions"
 5. In der Suche oben Links eingeben: C#
